@@ -321,26 +321,12 @@ int main() {
     //     cin>>year;
     //     if (year%4==0)
     //     {
-    //         if (year%100==0)
-    //         {
-    //             if (year%400==0)
-    //             {
-    //                 cout<<"leap year";
-    //             }
-    //             else
-    //             {
-    //                 cout<<"not a leap year";
-    //             }
-    //         }
-    //         else
-    //         {
-    //             cout<<"leap year";
-    //         }
+    //         cout<<"is  a leap year";
     //     }
     //     else
     //     {
     //         cout<<"not a leap year";
-        // }
+    //     }
 
 //Q currency Denomination program when u have the notes of 5,10,20,50,100,500 but u should use the minimum no of notes to get the given amount and output should be for example 5*0,10*0,20*0,50*0,100*0,500*0 you should display every quaniity of notes in the format of the given example.
 
