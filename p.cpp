@@ -287,39 +287,55 @@ int main() {
 
     //Q11 write a program to find out the percentage between 3 subjects, per subject have total of 100 marks and total marks of all subject is 300 and give the grades according to the percentage for 1st division 60% and above,2nd division 50% to 59% ,3rd division 35% and above and fail below 33% in any subject.
 
-    // float p, c, m, per;
-    // cout << "Enter the marks of Physics: ";
-    // cin >> p;
-    // cout << "Enter the marks of Chemistry: ";
-    // cin >> c;
-    // cout << "Enter the marks of Maths: ";
-    // cin >> m;
-
-    // if ((p >= 0 && p <= 100) && (c >= 0 && c <= 100) && (m >= 0 && m <= 100)) {
-    //     per = (p + c + m) / 3;
-    //     cout << "Percentage: " << per << "%" << endl;
-
-    //     if (p < 33 || c < 33 || m < 33) {
-    //         cout << "Fail" << endl;
-    //     } else if (per >= 60) {
-    //         cout << "1st Division" << endl;
-    //     } else if (per >= 50) {
-    //         cout << "2nd Division" << endl;
-    //     } else if (per >= 35) {
-    //         cout << "3rd Division" << endl;
-    //     } else {
-    //         cout << "Fail" << endl;
-    //     }
-    // } else {
-    //     cout << "Invalid marks entered. Marks should be between 0 and 100." << endl;
+    // float p, c, m,tot, per;
+    // cout << "enter the marks of physics, chemistry, maths = "<<endl;
+    // cin >> p >> c >> m;
+    // tot = p + c + m;
+    // per = tot / 3;
+    // if (p<0 || p> 100 || c<0 || c> 100 || m<0 || m> 100)
+    // {
+    //     cout << "invalid marks";
+    // }
+    // else if (p<35 && c>=35 && m>=35)
+    // {
+    //     cout<<"supply in physics";
+    // }
+    // else if (m<35 && c>=35 && p>=35)
+    // {
+    //     cout<<"supply in maths";
+    // }
+    // else if (c<35 && p>=35 && m>=35)
+    // {
+    //     cout<<"supply in chemistry";
+    // }
+    // else if ((p<35 && c<35) || (p<35 && m<35) || (c<35 && m<35))
+    // {
+    //     cout<<"fail";
+    // }
+    // else if (per >= 60)
+    // {
+    //     cout << "1st division"<<"marks= "<<tot<<"percentage= "<<per;
+    // }
+    // else if (per<60 && per>=50)
+    // {
+    //     cout << "2nd division"<<"marks= "<<tot<<"percentage= "<<per;
+    // }
+    // else if (per<50 && per>=35)
+    // {
+    //     cout << "3rd division"<<"marks= "<<tot<<"percentage= "<<per;
+    // }
+    // else
+    // {
+    //     cout << "fail"<<"marks= "<<tot<<"percentage= "<<per;
     // }
 
+    
 //Q Write a program to find out the given year is leap year or not ?
 
     //  int year;
     //     cout<<"enter the year = ";
     //     cin>>year;
-    //     if (year%4==0)
+    //     if ((year%4==0 && year%100!=0 || year%400==0))
     //     {
     //         cout<<"is  a leap year";
     //     }
@@ -331,31 +347,42 @@ int main() {
 //Q currency Denomination program when u have the notes of 5,10,20,50,100,500 but u should use the minimum no of notes to get the given amount and output should be for example 5*0,10*0,20*0,50*0,100*0,500*0 you should display every quaniity of notes in the format of the given example.
 
 // int amount;
-//     cout<<"enter the amount = ";
+//     cout<<"enter the amount = "<<endl;
 //     cin>>amount;
-//     if (amount%5==0)
+//     if (amount>=500)
 //     {
-//         int a = amount/500;
+//         cout<<"500*"<<amount/500<<endl;
 //         amount = amount%500;
-//         int b = amount/100;
-//         amount = amount%100;
-//         int c = amount/50;
-//         amount = amount%50;
-//         int d = amount/20;
-//         amount = amount%20;
-//         int e = amount/10;
-//         amount = amount%10;
-//         int f = amount/5;
-//         cout<<"500*"<<a<<endl;
-//         cout<<"100*"<<b<<endl;
-//         cout<<"50*"<<c<<endl;
-//         cout<<"20*"<<d<<endl;
-//         cout<<"10*"<<e<<endl;
-//         cout<<"5*"<<f<<endl;
 //     }
-//     else
+//     if (amount>=100)
 //     {
-//         cout<<"invalid amount";
+//         cout<<"100*"<<amount/100<<endl;
+//         amount = amount%100;
+//     }
+//     if (amount>=50)
+//     {
+//         cout<<"50*"<<amount/50<<endl;
+//         amount = amount%50;
+//     }
+//     if (amount>=20)
+//     {
+//         cout<<"20*"<<amount/20<<endl;
+//         amount = amount%20;
+//     }
+//     if (amount>=10)
+//     {
+//         cout<<"10*"<<amount/10<<endl;
+//         amount = amount%10;
+//     }
+//     if (amount>=5)
+//     {
+//         cout<<"5*"<<amount/5<<endl;
+//         amount = amount%5;
+//     }
+//     if (amount>=1)
+//     {
+//         cout<<"1*"<<amount/1<<endl;
+//         amount = amount%1;
 //     }
 
 //here ends conditional statement------------------
@@ -403,4 +430,58 @@ int main() {
     //     cout<<"end";
     // }
 
+        //Transfer statement:
+        //switch case:- when we have to make menu based program then we use switch case statement;
+        // syntax:-
+        // switch(condition/expression)
+        // {
+        //     case value1:
+        //     statement/code;
+        //     break;
+        // }
+        // case value2:
+        // {
+        //     statement/code;
+        //     break;
+        // }
+        // -
+        // -
+        // -
+        // default:
+        // {
+        //     statement/code;
+        //     break;
+        // }
+
+
+        //Q write a program to perform the addition,subtraction,multiplication,division of 2 numbers using switch case statement;
+
+        // int a,b,c;
+        // cout<<"enter 2 different numbers = "<<endl;
+        // cin>>a>>b;
+        // cout<<"1.addition\n2.subtraction\n3.multiplication\n4.division\n";
+        // cout<<"enter the choice = ";
+        // cin>>c;
+        // switch (c)
+        // {
+        // case 1:
+        //     cout<<"the addition is = "<<a+b<<endl;
+        //     break;
+        // case 2: 
+        //     cout<<"the subtraction is = "<<a-b<<endl;
+        //     break;
+        // case 3:
+        //     cout<<"the multiplication is = "<<a*b<<endl;
+        //     break;
+        // case 4:
+        //     cout<<"the division is = "<<a/b<<endl;
+        //     break;
+        // default:
+        //     cout<<"invalid choice";
+        //     break;
+        // }
+
+        //Q write a program to find out the given number is even or odd or leap year or square or cube using switch case statement;
+        
+        
 }
