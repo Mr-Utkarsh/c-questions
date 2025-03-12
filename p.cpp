@@ -481,7 +481,97 @@ int main() {
         //     break;
         // }
 
-        //Q write a program to find out the given number is even or odd or leap year or square or cube using switch case statement;
-        
-        
+        //Q write a program to find out the given number is even odd,leap year,square,cube using switch case statement;
+
+        // int a;
+        // cout<<"enter the number = ";
+        // cin>>a;
+        // cout<<"1.even odd\n2.leap year\n3.square\n4.cube\n";
+        // cout<<"enter the choice = ";
+        // cin>>a;
+        // switch (a)
+        // {
+        // case 1:
+        //     if (a%2==0)
+        //     {
+        //         cout<<"even";
+        //     }
+        //     else
+        //     {
+        //         cout<<"odd";
+        //     }
+        //     break;
+        // case 2:
+        //     if ((a%4==0 && a%100!=0 || a%400==0))
+        //     {
+        //         cout<<"leap year";
+        //     }
+        //     else
+        //     {
+        //         cout<<"not a leap year";
+        //     }
+        //     break;
+        // case 3:
+        //     cout<<"the square is = "<<a*a<<endl;
+        //     break;
+        // case 4:
+        //     cout<<"the cube is = "<<a*a*a<<endl;
+        //     break;
+        // default:
+        //     cout<<"invalid choice";
+        //     break;
+        // }
+
+    //     int a;
+    //     char c;
+    //     cout<<"enter the character = ";
+    //     cin>>c;
+    //     cout<<"select 1 to display vowel/consonant \n 2 for gender program = ";
+    //     cin>>a;
+    //     switch (a)
+    //     {
+    //     case 1:
+    //         if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U' )
+    //         {
+    //             cout<<"the given character is vowel"<<endl;
+    //         }
+    //         else
+    //         {
+    //             cout<<"the given character is consonant"<<endl;
+    //         }
+    //         break;
+    //     case 2:{
+    //         if((c=='m')|| (c=='M'))
+    //         {
+    //             cout<<"male";
+    //         }
+    //         else if (c=='f'||c=='F')
+    //         {
+    //             cout<<"female"
+    //         }
+    //         else
+    //         {
+    //             cout<<"invalid";
+    //         }
+    //         break;
+    //     default:
+    //         cout<<"invalid choice";
+    //         break;
+    //     }
+    // return 0;
+    //     }
+
+    //Q  write a program to print numbers 1 to 15 using goto without printing 5;
+    int a = 1;
+    start:
+    if (a == 5) {
+        a++;
+        goto start;
+    }
+    cout << a << endl;
+    a++;
+    if (a <= 15) {
+        goto start;
+    }
+    return 0;
 }
