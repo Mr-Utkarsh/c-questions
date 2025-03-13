@@ -486,7 +486,7 @@ int main() {
         // int a;
         // cout<<"enter the number = ";
         // cin>>a;
-        // cout<<"1.even odd\n2.leap year\n3.square\n4.cube\n";
+        // cout<<"1.even odd \n 2.leap year \n 3.square \n 4.cube \n";
         // cout<<"enter the choice = ";
         // cin>>a;
         // switch (a)
@@ -562,16 +562,74 @@ int main() {
     //     }
 
     //Q  write a program to print numbers 1 to 15 using goto without printing 5;
-    int a = 1;
-    start:
-    if (a == 5) {
-        a++;
-        goto start;
-    }
-    cout << a << endl;
-    a++;
-    if (a <= 15) {
-        goto start;
-    }
-    return 0;
+    
+
+    //3 looping statement- there are three type of loop(Iteration)- Do-while,While,For;
+     //dowhile loop syntax:-
+     //do
+     //{
+     //statement;
+     //}
+     //while(condition/expression);
+
+     //example;
+    //ascending order
+    //  int a = 1;
+    //  do
+    //  {
+    //      cout<<a<<endl;
+    //      a++;
+    //  }
+    //  while (a<=15);
+
+    //descending order
+    // int a = 15;
+    // do
+    // {
+    //     if (a==5)
+    //     {
+    //         a--;
+    //         continue;
+    //     }
+    //     cout<<a<<endl;
+    //     a--;
+    // }
+    // while (a>=1);
+
+    //Q write a program to print even number between 1 to 10;
+    // int a = 1;
+    // do
+    // {
+    //     if (a%2==0)
+    //     {
+    //     cout<<a<<" "<<endl;
+    //     }
+    //     a++;
+        
+    // } while (a<=10);
+    
+    //Q write a program to generate table of any number using do-while loop;
+
+    // int a;
+    // cout<<"enter any number";
+    // cin>>a;
+    // int m = 1;
+    // if (a<0)
+    // {
+    //     cout<<"invalid input";
+    // }
+    // else{
+    //     do
+    // {
+    //  cout<<a*m<<" ";
+    //  m++;   
+    // } while (m<=10);
+    // }
+    
+    //Q write a program to find out the prime number between 1 to 20 using do-while;
+    //Q write a program to print the sum of the values between 1 to 50;
+    //Q write a program to findout the given 3 digit number is armstrong number or not (153);
+    //Q write a program to findout the given numbers is palindrome or not;
+    //Q write a program to findout the factors of given number;
+    
 }
