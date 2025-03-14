@@ -627,9 +627,92 @@ int main() {
     // }
     
     //Q write a program to find out the prime number between 1 to 20 using do-while;
+    // int a = 1;
+    // do
+    // {
+    //     int b = 2;
+    //     int c = 0;
+    //     do
+    //     {
+    //         if (a%b==0)
+    //         {
+    //             c++;
+    //         }
+    //         b++;
+    //     } while (b<=a);
+    //     if (c==1)
+    //     {
+    //         cout<<a<<" ";
+    //     }
+    //     a++;
+    // } while (a<=20);
     //Q write a program to print the sum of the values between 1 to 50;
+    // int a = 1;
+    // int sum = 0;
+    // do
+    // {
+    //     sum = sum + a;
+    //     a++;
+    // } while (a<=50);
+    // cout<<"the sum is = "<<sum<<endl;
+    // return 0;
     //Q write a program to findout the given 3 digit number is armstrong number or not (153);
+    // int a;
+    // cout<<"enter the number = ";
+    // cin>>a;
+    // int b = a;
+    // int sum = 0;    
+    // do
+    // {
+    //     int c = a%10;
+    //     sum = sum + (c*c*c);
+    //     a = a/10;
+    // } while (a!=0);
+    // if (sum==b)
+    // {
+    //     cout<<"armstrong number";
+    // }
+    // else
+    // {
+    //     cout<<"not an armstrong number";
+    // }
+    // return 0;
     //Q write a program to findout the given numbers is palindrome or not;
+    // int a;
+    // cout<<"enter the number = "; 
+    // cin>>a;
+    // int b = a;
+    // int sum = 0;
+    // do
+    // {
+    //     int c = a%10;
+    //     sum = sum*10 + c;
+    //     a = a/10;
+    // } while (a!=0);
+    // if (sum==b)
+    // {
+    //     cout<<"palindrome number";
+    // }
+    // else
+    // {
+    //     cout<<"not a palindrome number";
+    // }
+    // return 0;
+
     //Q write a program to findout the factors of given number;
+    // int a;
+    // cout<<"enter the number = ";
+    // cin>>a;
+    // int b = 1;
+    // do
+    // {
+    //     if (a%b==0)
+    //     {
+    //         cout<<b<<" ";
+    //     }
+    //     b++;
+    // } while (b<=a);
+    // return 0;
+    
     
 }
