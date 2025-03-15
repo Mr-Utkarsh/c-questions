@@ -713,6 +713,4 @@ int main() {
     //     b++;
     // } while (b<=a);
     // return 0;
-    
-    
 }
