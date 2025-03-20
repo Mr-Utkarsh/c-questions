@@ -646,6 +646,8 @@ int main() {
     //     }
     //     a++;
     // } while (a<=20);
+
+
     //Q write a program to print the sum of the values between 1 to 50;
     // int a = 1;
     // int sum = 0;
@@ -656,6 +658,8 @@ int main() {
     // } while (a<=50);
     // cout<<"the sum is = "<<sum<<endl;
     // return 0;
+
+
     //Q write a program to findout the given 3 digit number is armstrong number or not (153);
     // int a;
     // cout<<"enter the number = ";
@@ -677,6 +681,8 @@ int main() {
     //     cout<<"not an armstrong number";
     // }
     // return 0;
+
+
     //Q write a program to findout the given numbers is palindrome or not;
     // int a;
     // cout<<"enter the number = "; 
@@ -713,5 +719,77 @@ int main() {
     //     b++;
     // } while (b<=a);
     // return 0;
+
+    //while loop :- while loop is called entry loop it will execute the statement till the condition is true otherwise it will be terminated;
+    // int a = 1;
+    // while(a<=10){
+    //     cout<<a<<endl;
+    //     a++;
+    // }
+    
+    // int a = 1;
+    // while(a<=10){
+    //     cout<<a*a<<endl;
+    //     a++;
+    // }
+
+    // int a = 1;
+    // while(a<=10){
+    //     if (a%2==0)
+    //     {
+    //         cout<<a*a<<endl;
+            
+    //     }
+    //     a++;
+    // }
+
+    // int pw;
+    //     int opw = 2025;
+    //    cout<<"enter password"<<endl;
+    //    cin>>pw;
+    //    int a = 1;
+    //    while (pw!=opw && a<=3)
+    //    {
+    //     if (pw!=opw)
+    //     {
+    //         cout<<"try again"<<endl;
+    //         a++;
+    //         cout<<"enter agian"<<endl;
+    //         cin>>pw;
+    //     }
+    //      if(pw==opw){
+    //         cout<<"correct"<<endl;
+    //         break;
+    //     }
+    //     else{
+    //         cout<<"try again tomorrow"<<endl;
+    //         break;
+    //     }
+    //    }
+       
+
+    // int pw;
+    // int a = 1;
+    // cout<<"enter password"<<endl;
+    // cin>>pw;
+   
+    // while(pw!=2025)
+    // {
+    //     if (a<=3)
+    //     {
+    //     cout<<"try again"<<endl;
+    //     cout<<"enter again"<<endl;
+    //     cin>>pw;
+    //     a++;
+    //     }
+        
+    // }
+    // if(a==4){
+    //     cout<<"try again tomorrow"<<endl;
+    // }
+    // if (pw==2025)
+    // {
+    //     cout<<"welcome"<<endl;
+    // }
     
 }
