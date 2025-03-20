@@ -742,54 +742,32 @@ int main() {
     //     }
     //     a++;
     // }
+    
+    //Q write a program to check the user if the password is corect or not and if three attempts are wrong then give the message try again tomorrow
 
+    // int opw = 2025;
     // int pw;
-    //     int opw = 2025;
-    //    cout<<"enter password"<<endl;
-    //    cin>>pw;
-    //    int a = 1;
-    //    while (pw!=opw && a<=3)
-    //    {
-    //     if (pw!=opw)
-    //     {
-    //         cout<<"try again"<<endl;
-    //         a++;
-    //         cout<<"enter agian"<<endl;
-    //         cin>>pw;
-    //     }
-    //      if(pw==opw){
-    //         cout<<"correct"<<endl;
-    //         break;
-    //     }
-    //     else{
-    //         cout<<"try again tomorrow"<<endl;
-    //         break;
-    //     }
-    //    }
-       
-
-    // int pw;
-    // int a = 1;
     // cout<<"enter password"<<endl;
     // cin>>pw;
+    // int a = 1;
    
-    // while(pw!=2025)
+    // while(pw!=opw && a<=3)
     // {
-    //     if (a<=3)
+    //     if (pw!=opw)
     //     {
-    //     cout<<"try again"<<endl;
-    //     cout<<"enter again"<<endl;
+    //     cout<<"wrong password try again!"<<endl;
+    //     cout<<"Enter again : "<<endl;
     //     cin>>pw;
     //     a++;
-    //     }
-        
+    //     }  
     // }
-    // if(a==4){
-    //     cout<<"try again tomorrow"<<endl;
-    // }
-    // if (pw==2025)
+    // if (pw!=opw)
     // {
-    //     cout<<"welcome"<<endl;
+    //     cout<<"Try again tomorrow"<<endl;
+    // }
+    // if (pw==opw)
+    // {
+    //     cout<<"Correct password"<<endl;
     // }
     
 }
