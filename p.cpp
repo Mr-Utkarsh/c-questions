@@ -769,5 +769,52 @@ int main() {
     // {
     //     cout<<"Correct password"<<endl;
     // }
+    //Q print the sum of 1 to n;
+
+    // int i,n;
+    // int sum = 0;
+    // cin>>n;
+
+    // for(i=1; i<=n; i++)
+    // {
+    //     sum=sum+i;
+    // }
+    // cout<<sum;
+
+    //Q print the even number between 1 to n;
+
+    // int i,n;
+    // int sum = 0;
+    // cin>>n;
+    // for ( i = 1;i<=n; i++)
+    // {
+    //     if (i%2==0)
+    //     {
+    //         sum=sum+i;
+    //     }
+        
+    // }
+    // cout<<sum;
+
+    //Q prime number 1 - n;
+
+//    int i,n;
+//    cin>>n;
+//    int count = 0;
+//    for ( i = 1; i<=n; i++)
+//    {
+//     if (n%i==0)
+//     {
+//     count++;
+//     }
+//    }
+//    if (count==2)
+//    {
+//     cout<<"prime";
+//    }
+//    else{
+//     cout<<"not prime";
+//    }
+   
     
 }
