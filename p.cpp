@@ -649,6 +649,8 @@ int main() {
 
 
     //Q write a program to print the sum of the values between 1 to 50;
+
+    
     // int a = 1;
     // int sum = 0;
     // do
@@ -661,17 +663,21 @@ int main() {
 
 
     //Q write a program to findout the given 3 digit number is armstrong number or not (153);
-    // int a;
-    // cout<<"enter the number = ";
-    // cin>>a;
-    // int b = a;
+
+    
+    // int n;
+    // cout<<"enter the 3 digit number = ";
+    // cin>>n;
+    // int b = n;
     // int sum = 0;    
-    // do
+    // if (n<1000 && n>99)
     // {
-    //     int c = a%10;
+    //     do
+    // {
+    //     int c = n%10;
     //     sum = sum + (c*c*c);
-    //     a = a/10;
-    // } while (a!=0);
+    //     n = n/10;
+    // } while (n>0);
     // if (sum==b)
     // {
     //     cout<<"armstrong number";
@@ -680,6 +686,11 @@ int main() {
     // {
     //     cout<<"not an armstrong number";
     // }
+    // }
+    // else{
+    //     cout<<"invalid 3 digit no"<<endl;
+    // }
+    
     // return 0;
 
 
