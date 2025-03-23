@@ -827,5 +827,4 @@ int main() {
 //     cout<<"not prime";
 //    }
    
-    
 }
