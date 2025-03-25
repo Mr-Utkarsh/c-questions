@@ -828,5 +828,16 @@ int main() {
     //     cout<<"not prime";
     //    }
 
-    
+    //Q write a program to findout the power 
+
+    // int b,p, k=1;
+    // cout<<"enter the base no = "<<endl;
+    // cin>>b;
+    // cout<<"enter the power = "<<endl;
+    // cin>>p;
+    // for (int i = 1; i<=p; i++)
+    // {
+    //     k=k*b;
+    // }
+    // cout<<k<<endl;
 }
