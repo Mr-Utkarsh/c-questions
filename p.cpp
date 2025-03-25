@@ -627,6 +627,7 @@ int main() {
     // }
     
     //Q write a program to find out the prime number between 1 to 20 using do-while;
+
     // int a = 1;
     // do
     // {
@@ -642,7 +643,7 @@ int main() {
     //     } while (b<=a);
     //     if (c==1)
     //     {
-    //         cout<<a<<" ";
+    //         cout<<a<<" "<<endl;
     //     }
     //     a++;
     // } while (a<=20);
@@ -809,22 +810,23 @@ int main() {
 
     //Q prime number 1 - n;
 
-//    int i,n;
-//    cin>>n;
-//    int count = 0;
-//    for ( i = 1; i<=n; i++)
-//    {
-//     if (n%i==0)
-//     {
-//     count++;
-//     }
-//    }
-//    if (count==2)
-//    {
-//     cout<<"prime";
-//    }
-//    else{
-//     cout<<"not prime";
-//    }
-   
+    //    int i,n;
+    //    cin>>n;
+    //    int count = 0;
+    //    for ( i = 1; i<=n; i++)
+    //    {
+    //     if (n%i==0)
+    //     {
+    //     count++;
+    //     }
+    //    }
+    //    if (count==2)
+    //    {
+    //     cout<<"prime";
+    //    }
+    //    else{
+    //     cout<<"not prime";
+    //    }
+
+    
 }
