@@ -840,4 +840,7 @@ int main() {
     //     k=k*b;
     // }
     // cout<<k<<endl;
+
+    
 }
+
