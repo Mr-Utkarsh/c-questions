@@ -903,6 +903,111 @@ int main() {
     //     cout<<c<<"\t";
     // }
     
+    //* patterns
     
+    //Q print
+    //*
+    //*   *
+    //*   *   *
+
+    // for (int r = 1; r <= 3; r++)
+    // {
+    //     for (int c = 1; c <= r; c++)
+    //     {
+    //         cout<<"* ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //Q print
+    //1
+    //1 2
+    //1 2 3
+
+    // for (int r = 1; r <= 3; r++)
+    // {
+    //     for (int c = 1; c <= r; c++)
+    //     {
+    //         cout<<"c ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //Q
+    //1
+    //2 2
+    //3 3 3 
+
+    // for (int r = 1; r <= 3; r++)
+    // {
+    //     for (int c = 1; c <= r; c++)
+    //     {
+    //         cout<<"r ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //Q
+    //1
+    //2 3
+    //4 5 6 
+
+    // int k = 1;
+
+    // for (int r = 1; r <= 3; r++)
+    // {
+    //     for (int c = 1; c <= r; c++)
+    //     {
+    //         cout<<k<<" ";
+    //         k++;
+    //     }
+    //     cout<<endl;
+    // }
+    
+    //Q print
+    //1
+    //4 9
+    //16 25 36
+
+    //  int k = 1;
+
+    // for (int r = 1; r <= 3; r++)
+    // {
+    //     for (int c = 1; c <= r; c++)
+    //     {
+    //         cout<<k*k<<" ";
+    //         k++;
+    //     }
+    //     cout<<endl;
+    // }
+
+    //Q
+    //a
+    //a b
+    //a b c
+
+    // for (char r= 'a'; r <= 'c'; r++)
+    // {
+    //     for (char c = 'a'; c <= r; c++)
+    //     {
+    //         cout<<c<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    //Q
+    //a
+    //b b
+    //c c c
+
+    // for (char r= 'a'; r <= 'c'; r++)
+    // {
+    //     for (char c = 'a'; c <= r; c++)
+    //     {
+    //         cout<<r<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
 }
 
