@@ -1009,5 +1009,108 @@ int main() {
     //     cout<<endl;
     // }
     
+    //Q
+    //     *
+    //    **
+    //   ***
+    //  ****
+    // ***** 
+
+    // for (int r=1; r<=5; r++)
+    // {
+    //     for (int s=4; s>=r; s--)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for (int c=1;c<=r; c++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl; 
+    // }
+
+    //Q1
+    //     1
+    //    12
+    //   123
+    //  1234
+    // 12345
+
+    // for (int r=1; r<=5; r++)
+    // {
+    //     for (int s=4; s>=r; s--)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for (int c=1;c<=r; c++)
+    //     {
+    //         cout<<c;
+    //     }
+    //     cout<<endl; 
+    // }
+
+    //Q2
+    //      a
+    //     ab
+    //    abc
+    //   abcd
+    //  abcde 
+
+    // int b = 5;
+    // for (int r=1; r<=5; r++)
+    // {
+    //     for (int s=4; s>=r; s--)
+    //     {
+    //         cout<<"  ";
+    //     }
+    //     char ch ='a';
+    //     for (int c=1;c<=r; c++)
+    //     {
+    //         cout<<ch++<<" ";
+    //     }
+    //     cout<<endl; 
+    // }
+    
+
+    
+    //Q3
+    //      1
+    //     22
+    //    333
+    //   4444
+    //  55555 
+    // for (int r=1; r<=5; r++)
+    // {
+    //     for (int s=4; s>=r; s--)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for (int c=1;c<=r; c++)
+    //     {
+    //         cout<<r;
+    //     }
+    //     cout<<endl; 
+    // }
+
+    //Q4
+    //      1
+    //     23
+    //    456
+    //  78910
+
+    // int a=1;
+    // for (int r=1; r<=4; r++)
+    // {
+    //     for (int s=3; s>=r; s--)
+    //     {
+    //         cout<<"  ";
+    //     }
+    //     for (int c=1;c<=r; c++)
+    //     {
+    //         cout<<a++<<" ";
+    //     }
+    //     cout<<endl; 
+    // }
+
 }
 
