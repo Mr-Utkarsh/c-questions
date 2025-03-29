@@ -415,10 +415,6 @@ int main() {
     // {
     //     goto start;
     // }
-    // else
-    // {
-    //     cout<<"end";
-    // }
 
 // Q write a program to print the descending of a number upto 1 using goto statement;
 
