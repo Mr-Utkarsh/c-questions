@@ -170,20 +170,27 @@ int main() {
     //     cout<<"the given no is odd"<<endl;
     // }    
 
-    //Q8 write a program to find out the large no between 2 integers;
-    // int a,b;
+    //Q8 write a program to find out the large no between 3 integers;
+    // int a,b,c;
     // cout<<"enter 1 no = "<<endl;
     // cin>>a;
     // cout<<"enter 2 no = "<<endl;
     // cin>>b;
-    // if(a>b)
+    // cout<<"enter 3 no = "<<endl;
+    // cin>>c;
+    // if(a>b&&a>c)
     // {
-    //     cout<<"the large no is = "<<a<<endl;
+    //     cout<<"a is larger"<<endl;
     // }
-    // else
+    // if (b>a && b>c)
     // {
-    //     cout<<"the large no is = "<<b<<endl;
+    //     cout<<"b is larger"<<endl;
     // }
+    // if (c>a && c>b)
+    // {
+    //     cout<<"c is larger"<<endl;
+    // }
+    
 
     //Q9 write a program to find out the given character is vowel or consonant;
     // char ch;
@@ -202,7 +209,7 @@ int main() {
 //     int pw,otp;
 //     int opw = 2025;
 //     int ootp = 1000;
-//    cout<<"create password = ";
+//    cout<<"enter password = ";
 //    cin>>pw;
    
 //     if (pw>=1000 && pw<=9999)
@@ -229,7 +236,7 @@ int main() {
 //     }
 //     else
 //     {
-//         cout<<"invalid";
+//         cout<<"wrong & invalid digit of password";
 //     }
     
     //ladder conditional 
@@ -481,7 +488,7 @@ int main() {
         //     break;
         // }
 
-        //Q write a program to find out the given number is even odd,leap year,square,cube using switch case statement;
+        //Q write a program to find out the given number is even odd,leap year using switch case statement;
 
         // int a;
         // cout<<"enter the number = ";
@@ -785,6 +792,7 @@ int main() {
 
     // int i,n;
     // int sum = 0;
+    // cout<<"enter any no = ";
     // cin>>n;
 
     // for(i=1; i<=n; i++)
@@ -1097,7 +1105,7 @@ int main() {
     //     23
     //    456
     //  78910
-
+    
     // int a=1;
     // for (int r=1; r<=4; r++)
     // {
