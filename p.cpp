@@ -873,25 +873,23 @@ int main() {
     
     //Q palindrome 
 
-    // int n;
-    // int c = 0,k;
-    // cout<<"enter any no = "<<endl;
+    // int n,org,rev = 0;
+    // cout<<"enter a no = ";
     // cin>>n;
-    // k=n;
-    // while (n>0)
+    // org = n;
+    // for (n ; n>0; n)
     // {
-    //    c = c*10 + n%10;
-    //    n=n/10; 
+    //     rev = (rev * 10)+(n%10);f
+    //     n = n/10;
     // }
-    // if (c==k)
+    // if (org == rev)
     // {
-    //     cout<<"palindrome"<<endl;
+    //     cout<<"palindrome";
     // }
-    // else
-    // {
-    //     cout<<"not palindrome"<<endl;
+    // else{
+    //     cout<<"not palindrome";
     // }
-    
+
     //Q Fibonacci
 
     // int a = 0;
