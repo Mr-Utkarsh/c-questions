@@ -24,7 +24,6 @@ int main() {
     //     }
     // }
 
-    
 
     //factorial
 
@@ -68,9 +67,12 @@ int main() {
     // }
     
     //Q reverse a 3digit number
+    
 //     int num = 123; // You can change this to any 3-digit number
 //     int rev = (num % 10) * 100 + ((num / 10) % 10) * 10 + (num / 100);
 //                          //300 + //2 +1
 //     cout << "Reversed number: " << rev << endl;
 //     return 0;
-// }
+
+
+}
