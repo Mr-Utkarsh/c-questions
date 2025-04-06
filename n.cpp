@@ -51,7 +51,7 @@ int main() {
      // int n;
     // cout<<"enter the 3 digit number = ";
     // cin>>n;
-    // int b = n;
+    // int ans = n;
     // int sum = 0;    
     // if (n<1000 && n>99)
     // {
@@ -61,7 +61,7 @@ int main() {
     //     sum = sum + (c*c*c);
     //     n = n/10;
     // } while (n>0);
-    // if (sum==b)
+    // if (sum==ans)
     // {
     //     cout<<"armstrong number";
     // }
