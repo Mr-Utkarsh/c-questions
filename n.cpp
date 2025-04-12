@@ -128,4 +128,17 @@ int main() {
 //     cout << "Reversed number: " << rev << endl;
 //     return 0;
 
+    //Q write a program to print the table of any number using goto statement;
+
+    // int a;
+    // int i=1;
+    // cout<<"enter the number = ";
+    // cin>>a;
+    // start:
+    // cout<<a<<"*"<<i<<"="<<a*i<<endl;
+    // i++;
+    // if (i<=10)
+    // {
+    //     goto start;
+    // }
 }
