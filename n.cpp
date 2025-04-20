@@ -141,4 +141,26 @@ int main() {
     // {
     //     goto start;
     // }
+
+     //Q write a program to find out the prime number between 1 to 20 using do-while;
+
+    // int a = 1;
+    // do
+    // {
+    //     int b = 2;
+    //     int c = 0;
+    //     do
+    //     {
+    //         if (a%b==0)
+    //         {
+    //             c++;
+    //         }
+    //         b++;
+    //     } while (b<=a);
+    //     if (c==1)
+    //     {
+    //         cout<<a<<" "<<endl;
+    //     }
+    //     a++;
+    // } while (a<=20);
 }
